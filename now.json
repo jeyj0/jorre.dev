@@ -1,4 +1,6 @@
 {
+  "version": 2,
   "name": "jorre.dev",
-  "alias": ["jorre.dev"]
+  "alias": ["jorre.dev"],
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
