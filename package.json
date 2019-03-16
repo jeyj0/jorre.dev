@@ -1,0 +1,24 @@
+{
+  "name": "jorre-dev",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeyj0/jorre.dev.git"
+  },
+  "author": "Jannis Jorre <jannis@jorre.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeyj0/jorre.dev/issues"
+  },
+  "homepage": "https://github.com/jeyj0/jorre.dev#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
