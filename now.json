@@ -1,6 +1,6 @@
 {
   "version": 2,
   "name": "jorre-dev",
-  "alias": ["www.jorre.dev"],
+  "alias": ["jannis.jorre.dev"],
   "builds": [{ "src": "next.config.js", "use": "@now/next" }]
 }
