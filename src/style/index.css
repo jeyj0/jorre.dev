@@ -18,3 +18,9 @@ html, body {
 #app {
 	height: 100%;
 }
+
+main {
+	max-width: 70ch;
+	padding: 2ch;
+	margin: auto;
+}
