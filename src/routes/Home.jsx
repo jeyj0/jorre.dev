@@ -3,7 +3,7 @@ import style from './home.css';
 
 const Home = () => (
 	<main class={style.home}>
-		<img class={style.image} src="../assets/jeyj0.png" />
+		<img class={style.image} src="../assets/jeyj0.png" alt="Avatar of me" />
 		<h1>Jannis Jorre</h1>
 		<h2>Software Developer</h2>
 		<h3>Focused on Web (Frontend)</h3>
