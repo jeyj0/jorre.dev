@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import ExternalLink from '../components/ExternalLink.jsx';
 import style from './home.css';
 
 const Home = () => (
@@ -7,8 +8,8 @@ const Home = () => (
 		<h1>Jannis Jorre</h1>
 		<h2>Software Developer</h2>
 		<h3>Focused on Web (Frontend)</h3>
-		<p>Studying at <a href="https://code.berlin/en/" target="_blank">CODE University of Applied Sciences</a></p>
-		<p>Employed at <a href="https://www.arcusx.com/" target="_blank">arcus[x]</a></p>
+		<p>Studying at <ExternalLink url="https://code.berlin/en/">CODE University of Applied Sciences</ExternalLink></p>
+		<p>Employed at <ExternalLink url="https://www.arcusx.com/">arcus[x]</ExternalLink></p>
 	</main>
 );
 
