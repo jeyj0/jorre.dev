@@ -12,6 +12,8 @@
     "serve": "preact build && preact serve",
     "dev": "preact watch",
     "lint": "eslint src",
+    "format": "prettier \".babelrc\" \"*.{js,jsx,json}\" \"src/**/*.{js,jsx,json,scss,css}\" --write",
+    "format:check": "prettier \".babelrc\" \"*.{js,jsx,json}\" \"src/**/*.{js,jsx,json,scss,css}\" --check",
     "test": "jest"
   },
   "eslintConfig": {
@@ -24,10 +26,11 @@
     "eslint": "^4.9.0",
     "eslint-config-synacor": "^2.0.2",
     "identity-obj-proxy": "^3.0.0",
-    "per-env": "^1.0.2",
     "jest": "^21.2.1",
+    "per-env": "^1.0.2",
     "preact-cli": "^2.1.0",
-    "preact-render-spy": "^1.2.1"
+    "preact-render-spy": "^1.2.1",
+    "prettier": "^1.17.1"
   },
   "dependencies": {
     "preact": "^8.2.6",
