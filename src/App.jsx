@@ -18,6 +18,7 @@ export default class App extends Component {
     return (
       <div id="app">
         <Helmet>
+          <meta name="Description" content="#TIL | Blog | Jannis Jorre" />
           <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" sizes="192x192" />
         </Helmet>
 
