@@ -1,5 +1,6 @@
 import { h, Component } from 'preact'
 import { Router } from 'preact-router'
+import { Helmet } from 'react-helmet'
 
 // Code-splitting is automated for routes
 import Home from './routes/Home'
@@ -16,6 +17,10 @@ export default class App extends Component {
   render() {
     return (
       <div id="app">
+        <Helmet>
+          <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" sizes="192x192" />
+        </Helmet>
+
         <Router onChange={this.handleRoute}>
           <Home path="/" />
         </Router>
