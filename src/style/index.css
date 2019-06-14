@@ -20,7 +20,9 @@ body {
   height: 100%;
 }
 
-main {
+header,
+main,
+footer {
   max-width: 70ch;
   padding: 2ch;
   margin: auto;

@@ -1,24 +1,26 @@
 import { h } from 'preact'
 import ExternalLink from '../components/ExternalLink.jsx'
-import style from './home.css'
+import style from './home.scss'
 
 const Home = () => (
-  <main class={style.home}>
-    <img class={style.image} src="../assets/jeyj0.png" alt="Avatar of me" />
-    <h1>Jannis Jorre</h1>
-    <h2>Software Developer</h2>
-    <h3>Focused on Web (Frontend)</h3>
-    <p>
-      Studying at{' '}
-      <ExternalLink url="https://code.berlin/en/">
-        CODE University of Applied Sciences
-      </ExternalLink>
-    </p>
-    <p>
-      Employed at{' '}
-      <ExternalLink url="https://www.arcusx.com/">arcus[x]</ExternalLink>
-    </p>
-  </main>
+  <div class={style.home}>
+    <header class={style.header}>
+      <img class={style.image} src="../assets/jeyj0.png" alt="Avatar of me" />
+      <span class={style.headline}>Jannis Jorre</span>
+      <ul class={style.links}>
+        <li>
+          <ExternalLink url="https://github.com/jeyj0">Github</ExternalLink>
+        </li>
+        <li>
+          <ExternalLink url="https://twitter.com/jeyj0_plus">
+            Twitter
+          </ExternalLink>
+        </li>
+      </ul>
+    </header>
+    <main class={style.main} />
+    <footer class={style.footer} />
+  </div>
 )
 
 export default Home

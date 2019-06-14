@@ -1,0 +1,46 @@
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  .header,
+  .main,
+  .footer {
+    width: 100%;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 5rem auto;
+    grid-column-gap: 2ch;
+    grid-template-rows: 2.5rem 2.5rem;
+    align-items: center;
+
+    .image {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      border-radius: 50%;
+      width: 100%;
+    }
+
+    .links {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+
+      li {
+        display: inline;
+        margin-right: 1ch;
+      }
+    }
+  }
+
+  .main {
+    margin-top: 0;
+  }
+}
