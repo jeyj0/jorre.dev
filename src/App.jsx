@@ -1,9 +1,10 @@
 import { h, Component } from 'preact'
 import { Router } from 'preact-router'
-import { Helmet } from 'react-helmet'
+import Page from './components/Page'
 
 // Code-splitting is automated for routes
 import Home from './routes/Home'
+import CheatSheets from './routes/CheatSheets'
 import Error404 from './routes/Error404'
 
 export default class App extends Component {
@@ -13,21 +14,18 @@ export default class App extends Component {
    */
   handleRoute = e => {
     this.currentUrl = e.url
+    this.setState({ currentUrl: e.url })
   }
 
-  render() {
+  render({}, { currentUrl }) {
     return (
-      <div id="app">
-        <Helmet>
-          <meta name="Description" content="#TIL | Blog | Jannis Jorre" />
-          <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" sizes="192x192" />
-        </Helmet>
-
+      <Page currentUrl={currentUrl}>
         <Router onChange={this.handleRoute}>
           <Home path="/" />
+          <CheatSheets path="/cheatsheets" />
           <Error404 default />
         </Router>
-      </div>
+      </Page>
     )
   }
 }
