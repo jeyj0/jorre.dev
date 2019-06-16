@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 
 // Code-splitting is automated for routes
 import Home from './routes/Home'
+import Error404 from './routes/Error404'
 
 export default class App extends Component {
   /** Gets fired when the route changes.
@@ -24,6 +25,7 @@ export default class App extends Component {
 
         <Router onChange={this.handleRoute}>
           <Home path="/" />
+          <Error404 default />
         </Router>
       </div>
     )
