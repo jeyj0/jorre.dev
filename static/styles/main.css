@@ -26,6 +26,17 @@ body {
   margin: 0;
 }
 
+blockquote {
+  border: 0.1rem solid #aaa;
+  border-left-width: 0.3rem;
+  border-radius: 0.3rem;
+  margin: 0.5rem 0;
+  padding: 0.8rem 0.5rem;
+  color: #555;
+  font-style: italic;
+  background-color: white;
+}
+
 #nav-toggle {
   display: none;
 }
@@ -149,6 +160,19 @@ nav a {
   padding: 0 1ch;
 }
 
+.tldr-link {
+  margin-left: 4ch;
+  margin-bottom: 1rem;
+  display: block;
+  font-size: 0.5em;
+}
+.tldr-link:before {
+  content: "(";
+}
+.tldr-link:after {
+  content: ")";
+}
+
 .article-list {
   list-style: none;
   padding: 0;
@@ -189,6 +213,16 @@ aside, .related {
 
 .related:after {
   content: "(related topic)";
+}
+
+.tldr {
+  border: 0.1rem solid #aaa;
+  border-left-width: 0.3rem;
+  border-radius: 0.3rem;
+  margin: 0.5rem 0;
+  padding: 0.8rem 0.5rem;
+  color: #555;
+  background-color: white;
 }
 
 footer {
