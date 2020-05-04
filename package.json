@@ -1,72 +1,24 @@
 {
-  "private": true,
-  "name": "jorre-dev",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "jorre.dev",
+  "version": "1.0.0",
+  "description": "",
   "scripts": {
-    "start": "per-env",
-    "start:production": "npm run -s serve",
-    "start:development": "npm run -s dev",
-    "build": "preact build",
-    "now-build": "preact build",
-    "serve": "preact build && preact serve",
-    "dev": "preact watch",
-    "lint": "eslint src",
-    "format": "prettier \".babelrc\" \"*.{js,jsx,json}\" \"src/**/*.{js,jsx,json,scss,css}\" --write",
-    "format:check": "prettier \".babelrc\" \"*.{js,jsx,json}\" \"src/**/*.{js,jsx,json,scss,css}\" --check",
-    "test": "jest"
+    "build": "node build_scripts/build.js"
   },
-  "eslintConfig": {
-    "extends": "eslint-config-synacor"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeyj0/jorre.dev.git"
   },
-  "eslintIgnore": [
-    "build/*"
-  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeyj0/jorre.dev/issues"
+  },
+  "homepage": "https://github.com/jeyj0/jorre.dev#readme",
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-synacor": "^2.0.2",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^21.2.1",
-    "node-sass": "^4.12.0",
-    "per-env": "^1.0.2",
-    "preact-cli": "^2.1.0",
-    "preact-render-spy": "^1.2.1",
-    "prettier": "^1.17.1",
-    "sass-loader": "^7.1.0"
-  },
-  "dependencies": {
-    "preact": "^8.2.6",
-    "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7",
-    "react-helmet": "^5.2.1"
-  },
-  "jest": {
-    "verbose": true,
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js"
-    ],
-    "testRegex": "(/(__tests__|tests)/.*|(\\.|/)(test|spec))\\.jsx?$",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "<rootDir>/tests/__mocks__/*"
-    ],
-    "testURL": "http://localhost:8080",
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/__mocks__/fileMock.js",
-      "\\.(css|less|scss)$": "identity-obj-proxy",
-      "^./style$": "identity-obj-proxy",
-      "^preact$": "<rootDir>/node_modules/preact/dist/preact.min.js",
-      "^react$": "preact-compat",
-      "^react-dom$": "preact-compat",
-      "^create-react-class$": "preact-compat/lib/create-react-class",
-      "^react-addons-css-transition-group$": "preact-css-transition-group"
-    }
+    "fs-extra": "^9.0.0",
+    "htm": "^3.0.4",
+    "preact": "^10.4.1",
+    "preact-render-to-string": "^5.1.6"
   }
 }

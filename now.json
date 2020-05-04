@@ -1,12 +1,11 @@
 {
   "version": 2,
   "name": "jorre-dev",
-  "alias": ["jannis.jorre.dev"],
-  "builds": [
+  "routes": [
+    { "handle": "filesystem" },
     {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": { "distDir": "build" }
+      "src": "/(.*)",
+      "dest": "/$1.html"
     }
   ]
 }
