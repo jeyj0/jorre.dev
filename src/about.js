@@ -1,31 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>About - Jannis Jorre</title>
-    <meta name="description" content="About Jannis Jorre, the Software Developer.">
-    <meta name="viewport" content="width=device-width; initial-scale=1">
-    <meta name="theme-color" content="#333">
-    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  </head>
-  <body>
-    <input type="checkbox" aria-hidden="true" id="nav-toggle">
-    <nav aria-hidden="false">
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-    </nav>
-    <label id="nav-toggle-label" aria-hidden="true" for="nav-toggle">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </label>
-    <div class="menubar">
-      <a class="neutral" href="/">
-        <img class="circle" alt="Portrait of Jannis Jorre" src="/assets/profile.jpg">
-        <span>Jannis Jorre</span>
-      </a>
-    </div>
+const { html } = require('htm/preact')
+const Page = require('./components/Page')
+
+module.exports = () => html`
+<${Page} title="About - Jannis Jorre" description="About Jannis Jorre, the Software Developer." menubar=${true}>
     <section>
       <main>
         <h1>About me</h1>
@@ -180,24 +157,6 @@
           </article>
         </div>
       </main>
-      <footer>
-        That's it!
-      </footer>
     </section>
-    <script>
-function navChange(e) {
-console.debug('hi')
-  const isOpen = e.target.checked;
-  if (isOpen) {
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.body.style.overflow = 'auto'
-  }
-}
-
-(function () {
-  document.getElementById('nav-toggle').addEventListener('change', navChange)
-})()
-    </script>
-  </body>
-</html>
+</${Page}>
+`

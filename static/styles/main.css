@@ -120,6 +120,10 @@ nav a {
   height: 50vw;
 }
 
+.socials a {
+  margin: 0 0.5rem;
+}
+
 .subtitle {
   display: block;
   font-style: italic;

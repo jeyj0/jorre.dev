@@ -2,8 +2,9 @@
   "version": 2,
   "name": "jorre-dev",
   "routes": [
+    { "handle": "filesystem" },
     {
-      "src": "^\/(?!assets|styles|scripts)(.*)$",
+      "src": "/(.*)",
       "dest": "/$1.html"
     }
   ]
