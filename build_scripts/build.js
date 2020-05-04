@@ -11,6 +11,8 @@ const OUTPUT_DIR = path.resolve(ROOT_DIR, 'public/')
 main()
 
 async function main() {
+  process.stdout.write('\033c')
+
   await fs.emptyDir(OUTPUT_DIR)
 
   await fs.copy(STATIC_DIR, OUTPUT_DIR)
