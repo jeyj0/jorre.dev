@@ -102,10 +102,16 @@ nav a {
   margin: 0.4rem;
   height: 2.4rem;
 }
+.menubar a {
+  position: inherit;
+  height: 3.2rem;
+}
 .menubar span {
   position: inherit;
   margin: 0 0.5rem;
+  color: #333;
 }
+
 
 .circle {
   border-radius: 50%;
@@ -126,6 +132,7 @@ nav a {
   max-width: 60ch;
   text-align: left;
   margin: auto;
+  padding: 0 1ch;
 }
 
 .article-list {
@@ -162,8 +169,12 @@ nav a {
   transform: translateY(-50%);
 }
 
-article {
-  padding: 0 1ch;
+aside, .related {
+  font-style: italic;
+}
+
+.related:after {
+  content: "(related topic)";
 }
 
 footer {
