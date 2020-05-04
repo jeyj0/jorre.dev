@@ -9,6 +9,8 @@ body {
 
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
+  letter-spacing: 0.02em;
+  line-height: 1.6em;
 
   text-align: center;
   margin: 0;
@@ -69,7 +71,7 @@ nav {
   padding-top: 3.2rem;
 
   background-color: #fffafa;
-  background-color: #fffafacc;
+  background-color: #fffafaee;
   backdrop-filter: blur(5px);
 }
 
@@ -89,16 +91,20 @@ nav a {
   left: 0;
   height: calc(3.2rem + 1px);
   width: 100%;
-  border-bottom: 1px solid black;
-  background-color: #fffafacc;
+  border-bottom: 1px solid #777;
+  background-color: #fffafaee;
   backdrop-filter: blur(5px);
 
   text-align: left;
-  line-height: 100%;
+  line-height: 3.2rem;
 }
 .menubar .circle {
   margin: 0.4rem;
   height: 2.4rem;
+}
+.menubar span {
+  position: inherit;
+  margin: 0 0.5rem;
 }
 
 .circle {
@@ -108,8 +114,20 @@ nav a {
   height: 50vw;
 }
 
-.article-list {
+.subtitle {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.7em;
+  line-height: 1.2em;
+}
+
+.content {
+  max-width: 70ch;
   text-align: left;
+}
+
+.article-list {
   list-style: none;
   padding: 0;
   border-top: 1px solid #aaa;
@@ -141,4 +159,12 @@ nav a {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+article {
+  padding: 0 1ch;
+}
+
+footer {
+  margin-top: 4rem;
 }
