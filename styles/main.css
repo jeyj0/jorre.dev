@@ -123,8 +123,9 @@ nav a {
 }
 
 .content {
-  max-width: 70ch;
+  max-width: 60ch;
   text-align: left;
+  margin: auto;
 }
 
 .article-list {
