@@ -1,7 +1,8 @@
 const { html } = require('htm/preact')
-const Page = require('../../components/Page')
+const { Page } = require('../../components/Page')
 
-module.exports = () => html`
+module.exports = {
+  Renderable: () => html`
 <${Page}
   title="Testing - Jannis Jorre"
   description="A list of blog-articles on Automated Software Testing, written by Jannis Jorre."
@@ -154,3 +155,4 @@ module.exports = () => html`
   </section>
 </${Page}>
 `
+}

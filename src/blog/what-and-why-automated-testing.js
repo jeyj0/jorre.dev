@@ -1,7 +1,8 @@
 const { html } = require('htm/preact')
-const Page = require('../components/Page')
+const { Page } = require('../components/Page')
 
-module.exports = () => html`
+module.exports = {
+  Renderable: () => html`
 <${Page}
   title="What is Automated Software Testing and why should you do it? - Jannis Jorre"
   description="First in a series on Automated Software Testing. What is Automated Software Testing? Why should you do it? What are its benefits?"
@@ -56,3 +57,4 @@ module.exports = () => html`
   </section>
 </${Page}>
 `
+}

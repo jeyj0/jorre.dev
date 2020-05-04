@@ -1,7 +1,7 @@
 const { html } = require('htm/preact')
 
-module.exports = () => {
-  const markup = html`
+module.exports = {
+  Nav: () => html`
     <input type="checkbox" aria-hidden="true" id="nav-toggle" />
     <nav aria-hidden="false">
       <a href="/">Home</a>
@@ -13,6 +13,4 @@ module.exports = () => {
       <div class="bar"></div>
     </label>
   `
-
-  return markup
 }

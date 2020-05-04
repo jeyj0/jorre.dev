@@ -1,6 +1,7 @@
 const { html } = require('htm/preact')
 
-module.exports = () => html`
+module.exports = {
+  Menubar: () => html`
 <div class="menubar">
   <a class="neutral" href="/">
     <img class="circle" alt="Portrait of Jannis Jorre" src="/assets/profile.jpg" />
@@ -8,3 +9,4 @@ module.exports = () => html`
   </a>
 </div>
 `
+}

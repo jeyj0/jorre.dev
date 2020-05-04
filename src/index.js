@@ -1,7 +1,8 @@
 const { html } = require('htm/preact')
-const Page = require('./components/Page')
+const { Page } = require('./components/Page')
 
-module.exports = () => html`
+module.exports = {
+  Renderable: () => html`
 <${Page} title="Jannis Jorre" description="Personal website of Jannis Jorre." menubar=${false}>
   <div class="top">
     <img class="circle" alt="Portrait of Jannis Jorre" src="/assets/profile.jpg" />
@@ -34,3 +35,4 @@ module.exports = () => html`
   </section>
 </${Page}>
 `
+}

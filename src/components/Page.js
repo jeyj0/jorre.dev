@@ -1,8 +1,9 @@
 const { html } = require('htm/preact')
-const Nav = require('./Nav')
-const Menubar = require('./Menubar')
+const { Nav } = require('./Nav')
+const { Menubar } = require('./Menubar')
 
-module.exports = ({ title, description, menubar = true, children }) => html`
+module.exports = {
+  Page: ({ title, description, menubar = true, children }) => html`
 <html lang="en">
   <head>
     <title>${title}</title>
@@ -24,3 +25,4 @@ module.exports = ({ title, description, menubar = true, children }) => html`
   </body>
 </html>
 `
+}

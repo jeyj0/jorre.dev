@@ -41,7 +41,7 @@ async function buildRoutes(basePath, routes) {
       console.log(`${'  '.repeat(depth)}📂 ${name}/`)
       await buildRoutes(routePath, currentRoutes)
     } else {
-      const component = require(path.join(SRC_DIR, routePath))
+      const component = require(path.join(SRC_DIR, routePath)).Renderable
       try {
         await buildRoute(routePath, component)
         console.log(`${'  '.repeat(depth)}✔️ ${name}`)
