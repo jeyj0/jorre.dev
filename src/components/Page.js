@@ -10,7 +10,6 @@ module.exports = {
     <meta name="description" content="${description}" />
     <meta name="viewport" content="width=device-width; initial-scale=1" />
     <meta name="theme-color" content="#333" />
-    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
   </head>
