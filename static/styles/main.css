@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+@media print {
+  body {
+    font-size: 12pt !important;
+  }
+
+  .noprint {
+    display: none !important;
+  }
+}
+
 body {
   background: #fffafa;
   color: #333;
