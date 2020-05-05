@@ -194,7 +194,7 @@ module.exports = {
           </section>
           <section>
             <p>
-              Last but not least: always remember that even the best test-suite cannot ensure 0 bugs - it can only show find some.
+              Last but not least: always remember that even the best test-suite cannot ensure 0 bugs - it can only find some.
             </p>
           </section>
         </article>
