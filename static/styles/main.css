@@ -42,6 +42,7 @@ blockquote {
 }
 
 #link-to-main-content {
+  z-index: 10000;
   clip: rect(1px, 1px, 1px, 1px);
   position: fixed;
   top: 0;
