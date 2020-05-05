@@ -16,8 +16,8 @@ module.exports = {
   </head>
   <body>
     <a id="link-to-main-content" href="#main-content" tabindex="1">Skip to content</a>
-    <${Nav} />
     ${menubar ? html`<${Menubar} />` : null}
+    <${Nav} />
     <div id="main-content">
       ${children}
     </div>
