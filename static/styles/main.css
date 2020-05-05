@@ -210,14 +210,14 @@ nav a {
   border-top: 1px solid #aaa;
 }
 
-.article-list li {
+.article-list a {
   height: fit-content;
   border-bottom: 1px solid #aaa;
   display: block;
   position: relative;
 }
 
-.article-list li a {
+.article-list a li {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -225,11 +225,11 @@ nav a {
   text-decoration: none;
   color: #333;
 }
-.article-list li a .article-link-text {
+.article-list a li .article-link-text {
   text-decoration: underline;
   color: blue;
 }
-.article-list li a .arrow-right {
+.article-list a li .arrow-right {
   width: 5ch;
   text-align: center;
   position: absolute;

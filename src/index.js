@@ -19,16 +19,16 @@ module.exports = {
       <h1>Articles</h1>
       <div class="content">
         <ul class="article-list">
-          <li>
-            <a href="/blog/what-and-why-automated-testing">
-              <span class="article-link-text">
-                What is Automated Software Testing, and why should you do it?
-              </span>
-              <div class="arrow-right" aria-hidden="true">
-                >
-              </div>
-            </a>
-          </li>
+          <a href="/blog/what-and-why-automated-testing">
+            <li>
+                <span class="article-link-text">
+                  What is Automated Software Testing, and why should you do it?
+                </span>
+                <div class="arrow-right" aria-hidden="true">
+                  >
+                </div>
+            </li>
+          </a>
         </ul>
       </div>
     </main>
