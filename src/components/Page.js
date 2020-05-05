@@ -8,6 +8,7 @@ module.exports = {
   <head>
     <title>${title}</title>
     <meta name="description" content="${description}" />
+    <meta charset="utf8"/>
     <meta name="viewport" content="width=device-width; initial-scale=1" />
     <meta name="theme-color" content="#333" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
