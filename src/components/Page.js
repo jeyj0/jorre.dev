@@ -14,7 +14,6 @@ module.exports = {
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
   </head>
   <body>
-    <a id="link-to-main-content" href="#main-content">Skip to content</a>
     <${Nav} />
     ${menubar ? html`<${Menubar} />` : null}
     <div id="main-content">
@@ -23,6 +22,7 @@ module.exports = {
     <footer>
       That's it!
     </footer>
+    <a id="link-to-main-content" href="#main-content" tabindex="1">Skip to content</a>
     <script src="/scripts/main.js" />
   </body>
 </html>
