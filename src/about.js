@@ -110,8 +110,8 @@ module.exports = {
               </p>
               <p>
                 As a scrum team, we held regular retrospectives,
-                spring-plannings and sprint-review meetings. To coordinate with
-                development teams in bulgaria and india, we also held regular
+                sprint-plannings and sprint-review meetings. To coordinate with
+                development teams in Bulgaria and India, we also held regular
                 scrum-of-scrums meetings, where our teams would join a remote call.
               </p>
             </section>
