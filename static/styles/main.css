@@ -241,7 +241,7 @@ aside, .related {
 }
 
 .related:after {
-  content: "(related topic)";
+  content: " (related topic)";
 }
 
 .tldr {
