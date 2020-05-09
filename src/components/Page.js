@@ -3,7 +3,7 @@ const { Nav } = require('./Nav')
 const { Menubar } = require('./Menubar')
 
 module.exports = {
-  Page: ({ title, description, menubar = true, children }) => html`
+  Page: ({ title, description, menubar = true, children, footnotes = null }) => html`
 <html lang="en">
   <head>
     <title>${title}</title>
@@ -23,6 +23,7 @@ module.exports = {
     </div>
     <footer>
       That's it!
+      ${footnotes ? html`<p class="footnotes"><small>${footnotes}</small><//>` : ''}
     </footer>
     <script src="/scripts/main.js" />
   </body>
