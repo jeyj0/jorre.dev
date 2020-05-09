@@ -109,7 +109,7 @@ module.exports = {
             <p>
               To answer this question, we can first ask: why should we automate anything? My personal answer is, that automation saves a lot of work. If we take the login
               example from above, we can already see automation become valuable. Let's imagine it takes 5 seconds to do one of those test-runs - meaning going through all
-              the steps I mentioned - when doing it manually. Since it's a login, we probably won't be able to finish it on the first attempt. If we are just a bit praciced
+              the steps I mentioned - when doing it manually. Since it's a login, we probably won't be able to finish it on the first attempt. If we are just a bit practiced
               in automated tests, we should be able to write a an automated test for this in about 1-2 minutes. That means we need to test the login at worst 24 times
               to take equal amounts of time. Once we test the login a 25th time, we'll have saved five seconds!
             </p>
