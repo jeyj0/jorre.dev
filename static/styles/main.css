@@ -196,6 +196,10 @@ nav a {
   padding: 0 1ch;
 }
 
+.center {
+  text-align: center;
+}
+
 .tldr-link {
   margin-left: 4ch;
   margin-bottom: 1rem;

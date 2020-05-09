@@ -35,22 +35,33 @@ module.exports = {
     <p>Software Engineer</p>
   </div>
   <section>
-    <main>
-      <h1>Articles</h1>
-      <div class="content">
-        <ul class="article-list">
-          <li>
-            <a href="/blog/what-and-why-automated-testing">
-              <span class="article-link-text">
-                What is Automated Software Testing, and why should you do it?
-              </span>
-              <div class="arrow-right" aria-hidden="true">
-                >
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <main class="content">
+      <h2 class="center">Article Series</h2>
+      <ul class="article-list">
+        <li>
+          <a href="/blog/series/testing">
+            <span class="article-link-text">
+              Automated Software Testing
+            </span>
+            <div class="arrow-right" aria-hidden="true">
+              >
+            </div>
+          </a>
+        </li>
+      </ul>
+      <h2 class="center">Articles</h2>
+      <ul class="article-list">
+        <li>
+          <a href="/blog/what-and-why-automated-testing">
+            <span class="article-link-text">
+              What is Automated Software Testing, and why should you do it?
+            </span>
+            <div class="arrow-right" aria-hidden="true">
+              >
+            </div>
+          </a>
+        </li>
+      </ul>
     </main>
   </section>
 </${Page}>
