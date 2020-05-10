@@ -47,9 +47,11 @@ module.exports = {
                   </a>
                 </li>
                 <li>
-                  <span class="related">
-                    The proper refactoring workflow
-                  </span>
+                  <a href="/blog/refactoring-workflow">
+                    <span class="related">
+                      The proper refactoring workflow
+                    </span>
+                  </a>
                 </li>
                 <li>
                   A minimal testing-example

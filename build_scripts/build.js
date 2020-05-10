@@ -22,6 +22,7 @@ async function main() {
     about: false,
     blog: {
       'what-and-why-automated-testing': false,
+      'refactoring-workflow': false,
       series: {
         testing: false,
       }
