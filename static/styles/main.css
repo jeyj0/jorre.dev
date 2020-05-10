@@ -30,6 +30,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  line-height: 1.05em;
+}
+
 blockquote {
   border: 0.1rem solid #aaa;
   border-left-width: 0.3rem;
