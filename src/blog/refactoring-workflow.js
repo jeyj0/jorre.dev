@@ -137,7 +137,7 @@ keep track of.
 After all that talk, here's my step-by-step guide on refactoring:
 <ol>
   <li>Find something that needs refactoring</li>
-  <li>Break up the changes into small, manageable, easy-to-do, cheap-to-undo steps (and pick on to start with)</li>
+  <li>Break up the changes into small, manageable, easy-to-do, cheap-to-undo steps (and pick one to start with)</li>
   <li>Make sure there's enough tests that ensure the code you want to change works (execute them, to be sure they're green)</li>
   <li>Do the small change</li>
   <li>
