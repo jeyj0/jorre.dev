@@ -11,7 +11,7 @@ module.exports = {
     <main>
       <h1>What is Automated Software Testing and why should you do it?</h1>
       <div class="content">
-        <a class="tldr-link" href="#tldr" aria-label="Activate to skip to short summary">Tl;dr at the bottom</a>
+        <a class="tldr-link" href="#tldr" aria-label="Activate to skip to short summary">Short summary at the bottom</a>
         <aside>
           This post is the first in a series of articles on automated
           software testing. You can find the whole list of upcoming and
@@ -177,7 +177,7 @@ module.exports = {
             </p>
           </section>
           <section class="tldr">
-            <h1 id="tldr">Tl;dr</h1>
+            <h1 id="tldr">Summary</h1>
             <ul>
               <li>Testing something means using a pre-defined process to make sure it works</li>
               <li>We test software so that we can be sure it does what we expect and want it to do</li>
