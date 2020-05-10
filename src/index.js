@@ -52,6 +52,16 @@ module.exports = {
       <h2 class="center">Articles</h2>
       <ul class="article-list">
         <li>
+          <a href="/blog/refactoring-workflow">
+            <span class="article-link-text">
+              The proper refactoring workflow
+            </span>
+            <div class="arrow-right" aria-hidden="true">
+              >
+            </div>
+          </a>
+        </li>
+        <li>
           <a href="/blog/what-and-why-automated-testing">
             <span class="article-link-text">
               What is Automated Software Testing, and why should you do it?
