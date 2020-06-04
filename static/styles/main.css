@@ -170,6 +170,7 @@ nav a {
   max-width: 400px;
   max-height: 400px;
   height: 50vw;
+  border: 1px solid #ddd;
 }
 
 .socials .svg-inline--fa {
