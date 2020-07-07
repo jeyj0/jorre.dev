@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Default Font';
+  src: url(/HackRegularNerdFontComplete.woff);
+}
+
+button {
+  font-family: 'Fira Code';
+}
+
 body,
 body.theme-dark {
   /* main theme */
@@ -135,7 +144,7 @@ body {
   color: var(--fg);
   padding: 4rem 0;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Default Font', monospace;
   font-size: 1.3em;
   letter-spacing: 0.02em;
   line-height: 1.6em;
