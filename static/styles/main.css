@@ -52,6 +52,12 @@ body.theme-light img {
   opacity: 1;
 }
 
+/* make selection match colorscheme */
+::selection {
+  background-color: var(--primary-dark);
+  color: var(--fg-stronger);
+}
+
 @media screen and (prefers-color-scheme: light) {
   body {
     /* main theme (light) */
@@ -82,30 +88,28 @@ body.theme-light img {
   }
 }
 
-@media screen and (prefers-color-scheme: dark) {
-  body.theme-light {
-    /* main theme (light) */
-    --bg: #fbf1c7;
-    --bg-transparent: #fbf1c7ee;
-    --bg-hi-contrast: #f9f5d7;
-    --bg-lo-contrast: #f2e5bc;
-    --bg-weaker: #ebdbb2;
-    --fg-weaker: #504945;
-    --fg: #3c3836;
-    --fg-stronger: #282828;
+body.theme-light {
+  /* main theme (light) */
+  --bg: #fbf1c7;
+  --bg-transparent: #fbf1c7ee;
+  --bg-hi-contrast: #f9f5d7;
+  --bg-lo-contrast: #f2e5bc;
+  --bg-weaker: #ebdbb2;
+  --fg-weaker: #504945;
+  --fg: #3c3836;
+  --fg-stronger: #282828;
 
-    /* colors */
-    --red-light: #9d0006;
-    --green-light: #79740e;
-    --yellow-light: #b57614;
-    --blue-light: #076678;
-    --purple-light: #8f3f71;
-    --aqua-light: #427b58;
-    --orange-light: #af3a03;
+  /* colors */
+  --red-light: #9d0006;
+  --green-light: #79740e;
+  --yellow-light: #b57614;
+  --blue-light: #076678;
+  --purple-light: #8f3f71;
+  --aqua-light: #427b58;
+  --orange-light: #af3a03;
 
-    --primary-dark: var(--purple-dark);
-    --primary-light: var(--purple-light);
-  }
+  --primary-dark: var(--purple-dark);
+  --primary-light: var(--purple-light);
 }
 
 * {
@@ -113,7 +117,7 @@ body.theme-light img {
 }
 
 *:focus {
-  outline: 0.1rem dashed var(--accent-light);
+  outline: 0.1rem solid var(--accent-light);
 }
 
 @media print {
