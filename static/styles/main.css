@@ -153,6 +153,19 @@ body {
   margin: 0;
 }
 
+.only-screenreader {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.accent {
+  color: var(--accent-light);
+}
+
 blockquote {
   border: 0.1rem solid var(--gray-dark);
   border-left-width: 0.3rem;
@@ -268,7 +281,12 @@ nav a {
 
 .top {
   padding: 1rem;
+  padding-top: 20vh;
   min-height: calc(80vh - 4rem - 1rem);
+}
+
+.top {
+  line-height: initial;
 }
 
 .menubar {
