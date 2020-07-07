@@ -2,6 +2,7 @@ const { html } = require('htm/preact')
 
 module.exports = {
   Nav: () => html`
+    <button id="theme-switch-btn">Toggle Lights</button>
     <input type="checkbox" aria-hidden="true" id="nav-toggle" />
     <nav aria-hidden="false">
       <a href="/" aria-label="Go to home page">Home</a>
