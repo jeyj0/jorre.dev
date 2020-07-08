@@ -21,7 +21,6 @@ module.exports = {
   <div class="top">
     <h1>Full-Stack Software-Engineer</h1>
     <h2>Hello, my name is <span class="accent">Jannis Jorre</span>.</h2>
-    <p>I code beautiful things and love it.</p>
     <p>What can I help you with? :)</p>
     <div class="socials">
       <a href="https://github.com/jeyj0" target="_blank" rel="noopener" title="GitHub" aria-label="Click here to to go Jannis Jorre's GitHub">
@@ -34,8 +33,10 @@ module.exports = {
         <${Email} />
       </a>
     </div>
-    <p>Check out my <a href="https://search.jorre.dev/" aria-label="Go to Jannis' custom web search">custom search</a> for the web.</p>
-    <p>You can find my dotfiles <a href="https://github.com/jeyj0/dot-files" aria-label="Go to Jannis' dotfiles repository">here</a>.</p>
+    <p>
+      Check out my <a href="https://search.jorre.dev/" aria-label="Go to Jannis' custom web search">custom search</a> or
+      my <a href="https://github.com/jeyj0/dot-files" aria-label="Go to Jannis' dotfiles repository">dotfiles</a>.
+    </p>
   </div>
   <section>
     <main class="content">
