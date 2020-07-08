@@ -1,10 +1,5 @@
-@font-face {
-  font-family: 'Default Font';
-  src: url(/HackRegularNerdFontComplete.woff);
-}
-
 button {
-  font-family: 'Fira Code';
+  font-family: 'Default Font', monospace;
 }
 
 body,
