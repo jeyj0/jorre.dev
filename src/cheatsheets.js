@@ -18,6 +18,12 @@ module.exports = {
         </li>
       </ul>
     </p>
+    <h2>Haskell</h2>
+    <p>
+      <ul>
+        <li><a href="https://hackage.haskell.org/package/lens-tutorial-1.0.3/docs/Control-Lens-Tutorial.html">Control.Lens Tutorial</a></li>
+      </ul>
+    </p>
   </main>
 </${Page}>
   `
