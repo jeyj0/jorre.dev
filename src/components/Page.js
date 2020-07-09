@@ -14,7 +14,7 @@ module.exports = {
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
     <link rel="stylesheet" type="text/css" href="/styles/fonts.css" />
   </head>
-  <body>
+  <body class=${menubar ? '' : 'no-menubar'}>
     <a id="link-to-main-content" href="#main-content">Skip to content</a>
     ${menubar ? html`<${Menubar} />` : null}
     <${Nav} />

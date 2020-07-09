@@ -217,9 +217,9 @@ blockquote {
 }
 
 #theme-switch-btn {
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
+  right: 4rem;
   padding: 1rem;
   background: var(--bg);
   border: none;
@@ -229,14 +229,13 @@ blockquote {
 #theme-switch-btn:focus {
   right: 4rem;
 }
-#theme-switch-btn:focus {
-  position: fixed;
-}
-
-@media screen and (min-width: 896px) {
-  #theme-switch-btn {
+@media screen and (max-width: 896px) {
+  body.no-menubar #theme-switch-btn {
+    position: absolute;
+    right: 0;
+  }
+  body.no-menubar #theme-switch-btn:focus {
     position: fixed;
-    right: 4rem;
   }
 }
 
