@@ -13,15 +13,16 @@ module.exports = {
         <li><a href="http://flexbox.malven.co/" target="_blank" rel="noopener">CSS Flexbox</a></li>
         <li><a href="http://grid.malven.co/" target="_blank" rel="noopener">CSS Grid</a></li>
         <li>
-          <a href="https://twitter.com/iamakulov/status/1275769142809944064" target="_blank" rel="noopener">Performance optimizations</a> (
-          <a href="https://threader.app/thread/1275769142809944064" target="_blank" rel="noopener">formatted version</a>)
+          <a href="https://twitter.com/iamakulov/status/1275769142809944064" aria-label="Go to a twitter thread with web performance optimization tips" target="_blank" rel="noopener">Performance optimizations</a> (
+          <a href="https://threader.app/thread/1275769142809944064" aria-label="Go to a formatted version of a twitter thread with web performance optimization tips" target="_blank" rel="noopener">formatted version</a>)
         </li>
       </ul>
     </p>
     <h2>Haskell</h2>
     <p>
       <ul>
-        <li><a href="https://hackage.haskell.org/package/lens-tutorial-1.0.3/docs/Control-Lens-Tutorial.html">Control.Lens Tutorial</a></li>
+        <li><a href="https://cheatsheet.codeslower.com/CheatSheet.pdf" aria-label="Go to Haskell cheatsheet" target="_blank" rel="noopener">Haskell</a></li>
+        <li><a href="https://wiki.haskell.org/LensBeginnersCheatsheet" aria-label="Go to Control.Lens cheatsheet" target="_blank" rel="noopener">Control.Lens</a></li>
       </ul>
     </p>
   </main>
