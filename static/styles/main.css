@@ -217,14 +217,20 @@ blockquote {
 }
 
 #theme-switch-btn {
-  z-index: 1001;
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: 4rem;
+  right: 0;
   padding: 1rem;
-  background: none;
+  background: var(--bg);
   border: none;
-  color: var(--fg)
+  color: var(--fg);
+}
+#nav-toggle:checked ~ nav #theme-switch-btn,
+#theme-switch-btn:focus {
+  right: 4rem;
+}
+#theme-switch-btn:focus {
+  position: fixed;
 }
 
 #nav-toggle:checked ~ #nav-toggle-label .bar {

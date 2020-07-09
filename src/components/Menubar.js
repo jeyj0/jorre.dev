@@ -5,7 +5,7 @@ module.exports = {
 <div class="menubar noprint">
   <a href="/" aria-label="Go to home page">
     <img class="circle" alt="Portrait of Jannis Jorre" src="/assets/profile_small.webp" />
-    <span>Jannis Jorre</span>
+    <span>Home</span>
   </a>
 </div>
 `
