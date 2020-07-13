@@ -16,6 +16,7 @@ module.exports = {
           <a href="https://twitter.com/iamakulov/status/1275769142809944064" aria-label="Go to a twitter thread with web performance optimization tips" target="_blank" rel="noopener">Performance optimizations</a> (
           <a href="https://threader.app/thread/1275769142809944064" aria-label="Go to a formatted version of a twitter thread with web performance optimization tips" target="_blank" rel="noopener">formatted version</a>)
         </li>
+        <li><a href="https://twitter.com/lihautan/status/1282133958809944065?s=09" target="_blank" rel="noopener" aria-label="Go to a twitter thread with a least of most CSS pseudo-selectors and what they do">CSS Pseudo-selectors</a></li>
       </ul>
     </p>
     <h2>Haskell</h2>

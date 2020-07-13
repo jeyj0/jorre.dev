@@ -20,6 +20,7 @@ async function main() {
   const routes = {
     index: false,
     about: false,
+    tools: false,
     cheatsheets: false,
     blog: {
       'what-and-why-automated-testing': false,
