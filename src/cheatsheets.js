@@ -26,6 +26,12 @@ module.exports = {
         <li><a href="https://wiki.haskell.org/LensBeginnersCheatsheet" aria-label="Go to Control.Lens cheatsheet" target="_blank" rel="noopener">Control.Lens</a></li>
       </ul>
     </p>
+    <h2>Interaction Design</h2>
+    <p>
+      <ul>
+        <li><a href="https://lawsofux.com/" target="_blank" rel="noopener">Laws of UX</a></li>
+      </ul>
+    </p>
   </main>
 </${Page}>
   `
