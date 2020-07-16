@@ -8,6 +8,7 @@ module.exports = {
       <a href="/" aria-label="Go to home page">Home</a>
       <a href="/about" aria-label="Go to about page">About</a>
       <a href="/cheatsheets" aria-label="Go to a list of cheatsheets">Cheatsheets</a>
+      <a href="/awesomes" aria-label="Go to a list of awesome resources">Awesome Resources</a>
       <a href="/tools" aria-label="Go to a list of tools">Tools</a>
       <a href="https://search.jorre.dev/" aria-label="Search the web with a custom search tool">Search the Web</a>
     </nav>

@@ -22,6 +22,7 @@ async function main() {
     about: false,
     tools: false,
     cheatsheets: false,
+    awesomes: false,
     blog: {
       'what-and-why-automated-testing': false,
       series: {

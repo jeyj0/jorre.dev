@@ -161,7 +161,7 @@ body {
   color: var(--accent-light);
 }
 
-blockquote {
+blockquote, .blockquote {
   border: 0.1rem solid var(--gray-dark);
   border-left-width: 0.3rem;
   border-radius: 0.3rem;
