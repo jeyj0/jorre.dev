@@ -32,6 +32,12 @@ module.exports = {
         <li><a href="https://lawsofux.com/" target="_blank" rel="noopener">Laws of UX</a></li>
       </ul>
     </p>
+    <h2>Writing</h2>
+    <p>
+      <ul>
+        <li><a href="https://marketingexamples.com/copywriting/tips" target="_blank" rel="noopener">17 tips for great copywriting</a></li>
+      </ul>
+    </p>
   </main>
 </${Page}>
   `
