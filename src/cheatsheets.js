@@ -30,6 +30,7 @@ module.exports = {
     <p>
       <ul>
         <li><a href="https://lawsofux.com/" target="_blank" rel="noopener">Laws of UX</a></li>
+        <li><a href="https://twitter.com/steveschoger/status/1284178659927044098" target="_blank" rel="noopener">Design Handoff Checklist</a></li>
       </ul>
     </p>
     <h2>Writing</h2>
