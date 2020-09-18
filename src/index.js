@@ -34,40 +34,11 @@ module.exports = {
       </a>
     </div>
     <p>
-      Check out my <a href="https://search.jorre.dev/" aria-label="Go to Jannis' custom web search">custom search</a> or
-      my <a href="https://github.com/jeyj0/dot-files" aria-label="Go to Jannis' dotfiles repository">dotfiles</a>.
+      Check out my <a href="https://notes.jorre.dev/" aria-label="Go to Jannis' knowledge base">notes</a>,${' '}
+      <a href="https://search.jorre.dev/" aria-label="Go to Jannis' custom web search">custom search</a>, or${' '}
+      <a href="https://codeberg.org/jeyj0/dotfiles" aria-label="Go to Jannis' dotfiles repository">dotfiles</a>.
     </p>
   </div>
-  <section>
-    <main class="content">
-      <h2 class="center">Article Series</h2>
-      <ul class="article-list">
-        <li>
-          <a href="/blog/series/testing">
-            <span class="article-link-text">
-              Automated Software Testing
-            </span>
-            <div class="arrow-right" aria-hidden="true">
-              >
-            </div>
-          </a>
-        </li>
-      </ul>
-      <h2 class="center">Articles</h2>
-      <ul class="article-list">
-        <li>
-          <a href="/blog/what-and-why-automated-testing">
-            <span class="article-link-text">
-              What is Automated Software Testing, and why should you do it?
-            </span>
-            <div class="arrow-right" aria-hidden="true">
-              >
-            </div>
-          </a>
-        </li>
-      </ul>
-    </main>
-  </section>
 </${Page}>
 `
 }
