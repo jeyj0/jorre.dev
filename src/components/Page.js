@@ -3,7 +3,7 @@ const { Nav } = require('./Nav')
 const { Menubar } = require('./Menubar')
 
 module.exports = {
-  Page: ({ title, description, menubar = true, children, footnotes = null }) => html`
+  Page: ({ title, description, header = null, menubar = true, children, footnotes = null }) => html`
 <html lang="en">
   <head>
     <title>${title}</title>
@@ -13,6 +13,7 @@ module.exports = {
     <meta name="theme-color" content="#333" />
     <link rel="stylesheet" type="text/css" href="/styles/main.css" />
     <link rel="stylesheet" type="text/css" href="/styles/fonts.css" />
+    <${header} />
   </head>
   <body class=${menubar ? '' : 'no-menubar'}>
     <a id="link-to-main-content" href="#main-content">Skip to content</a>

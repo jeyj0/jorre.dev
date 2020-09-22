@@ -6,6 +6,9 @@ module.exports = {
 <${Page}
   title="What is Automated Software Testing and why should you do it? - Jannis Jorre"
   description="First in a series on Automated Software Testing. What is Automated Software Testing? Why should you do it? What are its benefits?"
+    header=${() => html`
+      <link rel="canonical" href="https://notes.jorre.dev/articles/20200922121956-what_is_automated_software_testing_and_why_should_you_do_it.html" />
+    `}
 >
   <section>
     <main>
