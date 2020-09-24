@@ -2,6 +2,20 @@
   "version": 2,
   "name": "jorre-dev",
   "routes": [
+    {
+      "src": "/blog/what-and-why-automated-testing",
+      "status": 301,
+      "headers": {
+        "Location": "https://notes.jorre.dev/articles/20200922121956-what_is_automated_software_testing_and_why_should_you_do_it.html"
+      }
+    },
+    {
+      "src": "/blog/.*",
+      "status": 301,
+      "headers": {
+        "Location": "https://notes.jorre.dev/"
+      }
+    },
     { "handle": "filesystem" },
     {
       "src": "/(.*)",
