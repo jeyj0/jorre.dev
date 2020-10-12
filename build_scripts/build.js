@@ -20,6 +20,7 @@ async function main() {
   const routes = {
     index: false,
     about: false,
+    impressum: false,
     tools: false,
     cheatsheets: false,
     awesomes: false,
